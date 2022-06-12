@@ -1,0 +1,19 @@
+{
+  "name": "wave-hands-modal",
+  "version": "0.0.0",
+  "description": "This is a library that just displays a waving modal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkitoTsukahara/wave-hands-modal.git"
+  },
+  "author": "macloud-developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkitoTsukahara/wave-hands-modal/issues"
+  },
+  "homepage": "https://github.com/AkitoTsukahara/wave-hands-modal#readme"
+}
