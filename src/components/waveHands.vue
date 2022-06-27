@@ -1,11 +1,9 @@
 <template>
-  <div class="wrapper">
-    <h1 @click="clickHand(noActivated)">
-      Hello there!
-      <div :class="{ shake: noActivated }">
-        <span class="hand">👋</span>
-      </div>
-    </h1>
+  <div class="message" @click="clickHand(noActivated)">
+    Hello there!
+    <div :class="{ wave: noActivated }">
+      <span class="hand">👋</span>
+    </div>
   </div>
 </template>
 
@@ -35,18 +33,18 @@ export default {
   },
 };
 </script>
-
 <style scoped lang="scss">
-h1 {
+.message {
   display: flex;
   cursor: pointer;
+  font-size: 32px;
 }
 
 .hand {
   font-size: 32px;
 }
 
-.shake {
+.wave {
   animation-name: waving-hand;
   animation-duration: 2s;
   animation-direction: normal;
